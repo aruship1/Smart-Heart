@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538D8FB21F4486550099C4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D8FB11F4486550099C4B4 /* AppDelegate.swift */; };
+		538D8FB41F4486550099C4B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D8FB31F4486550099C4B4 /* ViewController.swift */; };
+		538D8FB71F4486550099C4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538D8FB51F4486550099C4B4 /* Main.storyboard */; };
+		538D8FB91F4486550099C4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538D8FB81F4486550099C4B4 /* Assets.xcassets */; };
+		538D8FBC1F4486550099C4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538D8FBA1F4486550099C4B4 /* LaunchScreen.storyboard */; };
+		538D8FC71F4486550099C4B4 /* Smart_HeartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D8FC61F4486550099C4B4 /* Smart_HeartTests.swift */; };
+		538D8FD21F4486550099C4B4 /* Smart_HeartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D8FD11F4486550099C4B4 /* Smart_HeartUITests.swift */; };
+		53C92BBF1F47656500A46507 /* CoreDataDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53C92BBD1F47656500A46507 /* CoreDataDataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		538D8FC31F4486550099C4B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538D8FA61F4486550099C4B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538D8FAD1F4486550099C4B4;
+			remoteInfo = "Smart Heart";
+		};
+		538D8FCE1F4486550099C4B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538D8FA61F4486550099C4B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538D8FAD1F4486550099C4B4;
+			remoteInfo = "Smart Heart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		538D8FAE1F4486550099C4B4 /* Smart Heart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Heart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538D8FB11F4486550099C4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		538D8FB31F4486550099C4B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		538D8FB61F4486550099C4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		538D8FB81F4486550099C4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538D8FBB1F4486550099C4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		538D8FBD1F4486550099C4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538D8FC21F4486550099C4B4 /* Smart HeartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart HeartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538D8FC61F4486550099C4B4 /* Smart_HeartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_HeartTests.swift; sourceTree = "<group>"; };
+		538D8FC81F4486550099C4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538D8FCD1F4486550099C4B4 /* Smart HeartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart HeartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538D8FD11F4486550099C4B4 /* Smart_HeartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_HeartUITests.swift; sourceTree = "<group>"; };
+		538D8FD31F4486550099C4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C92BBE1F47656500A46507 /* CoreDataDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDataModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538D8FAB1F4486550099C4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538D8FBF1F4486550099C4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538D8FCA1F4486550099C4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538D8FA51F4486550099C4B4 = {
+			isa = PBXGroup;
+			children = (
+				53C92BBD1F47656500A46507 /* CoreDataDataModel.xcdatamodeld */,
+				538D8FB01F4486550099C4B4 /* Smart Heart */,
+				538D8FC51F4486550099C4B4 /* Smart HeartTests */,
+				538D8FD01F4486550099C4B4 /* Smart HeartUITests */,
+				538D8FAF1F4486550099C4B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538D8FAF1F4486550099C4B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538D8FAE1F4486550099C4B4 /* Smart Heart.app */,
+				538D8FC21F4486550099C4B4 /* Smart HeartTests.xctest */,
+				538D8FCD1F4486550099C4B4 /* Smart HeartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538D8FB01F4486550099C4B4 /* Smart Heart */ = {
+			isa = PBXGroup;
+			children = (
+				538D8FB11F4486550099C4B4 /* AppDelegate.swift */,
+				538D8FB31F4486550099C4B4 /* ViewController.swift */,
+				538D8FB51F4486550099C4B4 /* Main.storyboard */,
+				538D8FB81F4486550099C4B4 /* Assets.xcassets */,
+				538D8FBA1F4486550099C4B4 /* LaunchScreen.storyboard */,
+				538D8FBD1F4486550099C4B4 /* Info.plist */,
+			);
+			path = "Smart Heart";
+			sourceTree = "<group>";
+		};
+		538D8FC51F4486550099C4B4 /* Smart HeartTests */ = {
+			isa = PBXGroup;
+			children = (
+				538D8FC61F4486550099C4B4 /* Smart_HeartTests.swift */,
+				538D8FC81F4486550099C4B4 /* Info.plist */,
+			);
+			path = "Smart HeartTests";
+			sourceTree = "<group>";
+		};
+		538D8FD01F4486550099C4B4 /* Smart HeartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				538D8FD11F4486550099C4B4 /* Smart_HeartUITests.swift */,
+				538D8FD31F4486550099C4B4 /* Info.plist */,
+			);
+			path = "Smart HeartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538D8FAD1F4486550099C4B4 /* Smart Heart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538D8FD61F4486550099C4B4 /* Build configuration list for PBXNativeTarget "Smart Heart" */;
+			buildPhases = (
+				538D8FAA1F4486550099C4B4 /* Sources */,
+				538D8FAB1F4486550099C4B4 /* Frameworks */,
+				538D8FAC1F4486550099C4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Heart";
+			productName = "Smart Heart";
+			productReference = 538D8FAE1F4486550099C4B4 /* Smart Heart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		538D8FC11F4486550099C4B4 /* Smart HeartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538D8FD91F4486550099C4B4 /* Build configuration list for PBXNativeTarget "Smart HeartTests" */;
+			buildPhases = (
+				538D8FBE1F4486550099C4B4 /* Sources */,
+				538D8FBF1F4486550099C4B4 /* Frameworks */,
+				538D8FC01F4486550099C4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538D8FC41F4486550099C4B4 /* PBXTargetDependency */,
+			);
+			name = "Smart HeartTests";
+			productName = "Smart HeartTests";
+			productReference = 538D8FC21F4486550099C4B4 /* Smart HeartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		538D8FCC1F4486550099C4B4 /* Smart HeartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538D8FDC1F4486550099C4B4 /* Build configuration list for PBXNativeTarget "Smart HeartUITests" */;
+			buildPhases = (
+				538D8FC91F4486550099C4B4 /* Sources */,
+				538D8FCA1F4486550099C4B4 /* Frameworks */,
+				538D8FCB1F4486550099C4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538D8FCF1F4486550099C4B4 /* PBXTargetDependency */,
+			);
+			name = "Smart HeartUITests";
+			productName = "Smart HeartUITests";
+			productReference = 538D8FCD1F4486550099C4B4 /* Smart HeartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538D8FA61F4486550099C4B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Smarties;
+				TargetAttributes = {
+					538D8FAD1F4486550099C4B4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					538D8FC11F4486550099C4B4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 538D8FAD1F4486550099C4B4;
+					};
+					538D8FCC1F4486550099C4B4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 538D8FAD1F4486550099C4B4;
+					};
+				};
+			};
+			buildConfigurationList = 538D8FA91F4486550099C4B4 /* Build configuration list for PBXProject "Smart Heart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538D8FA51F4486550099C4B4;
+			productRefGroup = 538D8FAF1F4486550099C4B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538D8FAD1F4486550099C4B4 /* Smart Heart */,
+				538D8FC11F4486550099C4B4 /* Smart HeartTests */,
+				538D8FCC1F4486550099C4B4 /* Smart HeartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538D8FAC1F4486550099C4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538D8FBC1F4486550099C4B4 /* LaunchScreen.storyboard in Resources */,
+				538D8FB91F4486550099C4B4 /* Assets.xcassets in Resources */,
+				538D8FB71F4486550099C4B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538D8FC01F4486550099C4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538D8FCB1F4486550099C4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538D8FAA1F4486550099C4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538D8FB41F4486550099C4B4 /* ViewController.swift in Sources */,
+				538D8FB21F4486550099C4B4 /* AppDelegate.swift in Sources */,
+				53C92BBF1F47656500A46507 /* CoreDataDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538D8FBE1F4486550099C4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538D8FC71F4486550099C4B4 /* Smart_HeartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538D8FC91F4486550099C4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538D8FD21F4486550099C4B4 /* Smart_HeartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		538D8FC41F4486550099C4B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538D8FAD1F4486550099C4B4 /* Smart Heart */;
+			targetProxy = 538D8FC31F4486550099C4B4 /* PBXContainerItemProxy */;
+		};
+		538D8FCF1F4486550099C4B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538D8FAD1F4486550099C4B4 /* Smart Heart */;
+			targetProxy = 538D8FCE1F4486550099C4B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		538D8FB51F4486550099C4B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538D8FB61F4486550099C4B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		538D8FBA1F4486550099C4B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538D8FBB1F4486550099C4B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		538D8FD41F4486550099C4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		538D8FD51F4486550099C4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538D8FD71F4486550099C4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Heart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Smart-Heart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		538D8FD81F4486550099C4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Heart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Smart-Heart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		538D8FDA1F4486550099C4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart HeartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Smart-HeartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Heart.app/Smart Heart";
+			};
+			name = Debug;
+		};
+		538D8FDB1F4486550099C4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart HeartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Smart-HeartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Heart.app/Smart Heart";
+			};
+			name = Release;
+		};
+		538D8FDD1F4486550099C4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Smart HeartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Smart-HeartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Smart Heart";
+			};
+			name = Debug;
+		};
+		538D8FDE1F4486550099C4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Smart HeartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Smart-HeartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Smart Heart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538D8FA91F4486550099C4B4 /* Build configuration list for PBXProject "Smart Heart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538D8FD41F4486550099C4B4 /* Debug */,
+				538D8FD51F4486550099C4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538D8FD61F4486550099C4B4 /* Build configuration list for PBXNativeTarget "Smart Heart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538D8FD71F4486550099C4B4 /* Debug */,
+				538D8FD81F4486550099C4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538D8FD91F4486550099C4B4 /* Build configuration list for PBXNativeTarget "Smart HeartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538D8FDA1F4486550099C4B4 /* Debug */,
+				538D8FDB1F4486550099C4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538D8FDC1F4486550099C4B4 /* Build configuration list for PBXNativeTarget "Smart HeartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538D8FDD1F4486550099C4B4 /* Debug */,
+				538D8FDE1F4486550099C4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53C92BBD1F47656500A46507 /* CoreDataDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53C92BBE1F47656500A46507 /* CoreDataDataModel.xcdatamodel */,
+			);
+			currentVersion = 53C92BBE1F47656500A46507 /* CoreDataDataModel.xcdatamodel */;
+			path = CoreDataDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 538D8FA61F4486550099C4B4 /* Project object */;
+}
